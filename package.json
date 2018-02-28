@@ -1,0 +1,27 @@
+{
+  "name": "webdash-pwa-manifest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadjoubran/webdash-pwa-manifest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadjoubran/webdash-pwa-manifest/issues"
+  },
+  "homepage": "https://github.com/jadjoubran/webdash-pwa-manifest#readme"
+}
