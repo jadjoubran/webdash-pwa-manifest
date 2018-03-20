@@ -11,7 +11,11 @@
   },
   "devDependencies": {},
   "files": [
-    "*"
+    "bower_components/",
+    "*.js",
+    "*.html",
+    "*.md",
+    "*.json"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
