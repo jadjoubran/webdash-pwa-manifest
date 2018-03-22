@@ -1,21 +1,25 @@
-# \<webdash-pwa-manifest\>
+# Webdash PWA Manifest
 
+![PWA manifest preview](https://i.imgur.com/deqEgn7.png)
 
-
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
-
-## Viewing Your Element
-
-```
-$ polymer serve
+```bash
+npm install --save-dev webdash-pwa-manifest
 ```
 
-## Running Tests
+## Features
 
-```
-$ polymer test
-```
+Preview your Web App Manifest on Android:
 
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+* Icon on homescreen
+* Splash screen
+* Status bar theme color
+
+## Configuration
+
+This plugin looks for `manifestPath` in your `webdash.json` configuration file, and defaults to `./src/manifest.json` if it's not set.
+
+You may need to fix your `manifestPath` for this plugin to work.
+
+## Enjoying webdash?
+
+Say Hi on Twitter: [@JoubranJad](https://twitter.com/JoubranJad)
