@@ -1,10 +1,13 @@
 # Webdash PWA Manifest
 
-![PWA manifest preview](https://i.imgur.com/deqEgn7.png)
+Speed up your Progressive Web App workflow by previewing your Web App Manifest.
 
 ```bash
 npm install --save-dev webdash-pwa-manifest
 ```
+
+![PWA manifest preview](https://i.imgur.com/deqEgn7.png)
+
 
 ## Features
 
