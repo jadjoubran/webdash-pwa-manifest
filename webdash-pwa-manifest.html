@@ -1,5 +1,6 @@
 <link rel="import" href="/bower_components/polymer/polymer-element.html">
 <link rel="import" href="/bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="/bower_components/empty-state-webdash/empty-state-webdash.html">
 
 <dom-module id="webdash-pwa-manifest">
   <template>
@@ -153,26 +154,6 @@
         margin-left: auto;
         margin-right: auto;
       }
-
-      #empty-state {
-        text-align: center;
-        padding: 20px 40px;
-        max-width: 400px;
-        line-height: 1.8;
-      }
-
-      #empty-state h4 {
-        margin-bottom: 0;
-      }
-
-      #empty-state p {
-        margin-top: 10px;
-        opacity: 0.7;
-      }
-
-      a {
-        color: inherit;
-      }
     </style>
 
     <div id="plugin">
@@ -223,13 +204,10 @@
         </div>
       </template>
       <template is="dom-if" if="{{!manifest}}">
-        <div id="empty-state">
-          <h4>No Web App Manifest found</h4>
-          <p>
+        <empty-state-webdash title="No Web App Manifest found">
             Check out
             <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest" target="_blank" rel="nofollower">MDN Web Docs</a> to create a Web App Manifest or update the manifestPath in webdash.json.
-          </p>
-        </div>
+        </empty-state-webdash>
       </template>
     </div>
 
